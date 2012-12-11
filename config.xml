@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://paegle.net/ns/1.0"
+    id        = "com.paegle.list-buddy"
+    version   = "1.1.0">
+
+<name>Shopping Buddy</name>
+
+<description>
+This is an app that helps you track your shopping items.
+</description>
+
+<author href="http://www.paegle.net" email="tadas@paegle.net">
+Tadas Paegle
+</author>
+
+
+
+</widget>
