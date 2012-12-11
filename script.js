@@ -8,15 +8,15 @@ document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
 	
 	dbCreated = true;
-	var dbExisits = window.localStorage.getItem("test"); 
+	var dbExisits = window.localStorage.getItem("dbExisits"); 
 	if ( dbExisits == null ) {
 		dbCreated = false;
-		window.localStorage.setItem("test", "1"); 
+		window.localStorage.setItem("dbExisits", "1"); 
 	}
 	
     db = window.openDatabase("my_db", "1.0", "PhoneGap Demo", 200000);
     if (dbCreated) {
-    	db.transaction(getData, transaction_error); console.log("dbCreated=1");
+    	db.transaction(getData, transaction_error); 
 	}else{
     	db.transaction(populateDB, transaction_error, populateDB_success);
 	}
