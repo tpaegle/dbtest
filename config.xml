@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://paegle.net/ns/1.0"
     id        = "com.paegle.list-buddy"
-    version   = "1.1.1">
+    version   = "1.1.2">
 
 <name>db Test</name>
 
@@ -14,6 +14,8 @@ db Test
 Tadas Paegle
 </author>
 
-
+<icon src="images/android72.png" width="72" height="72" />
+<icon src="images/android48.png" width="48" height="48" />
+<icon src="images/android36.png" width="36" height="36" />
 
 </widget>
