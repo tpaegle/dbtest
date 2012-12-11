@@ -4,10 +4,10 @@
     id        = "com.paegle.list-buddy"
     version   = "1.1.0">
 
-<name>Shopping Buddy</name>
+<name>db Test</name>
 
 <description>
-This is an app that helps you track your shopping items.
+db Test
 </description>
 
 <author href="http://www.paegle.net" email="tadas@paegle.net">
